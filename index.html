@@ -2,11 +2,54 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistema Académico Universitario</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f4f4;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input {
+      padding: 8px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
+
   <h1>Sistema Académico Universitario</h1>
-  <p>Bienvenido al sistema.</p>
+  <h2>Acceso al Sistema</h2>
+
+  <form>
+    <label>Usuario:</label><br>
+    <input type="text"><br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password"><br><br>
+
+    <button>Ingresar</button>
+  </form>
+
 </body>
 </html>
